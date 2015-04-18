@@ -1,4 +1,5 @@
 # vim-setup
+this is bootstrap script for https://github.com/astrails/dotvim.
 
 # installation
 
