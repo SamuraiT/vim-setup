@@ -11,6 +11,7 @@ curl -fsSL https://raw.githubusercontent.com/SamuraiT/vim-setup/master/bootstrap
 or
 
 ```
+cd ~
 git clone git://github.com/astrails/dotvim.git
 ln -sfn dotvim .vim
 ln -sfn dotvim/vimrc .vimrc
