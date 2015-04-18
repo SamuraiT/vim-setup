@@ -1,3 +1,8 @@
+echo '
+It takes a lot time to finish installing and setiing up all.
+Please wait.....
+'
+
 git clone git://github.com/astrails/dotvim.git
 ln -sfn dotvim .vim
 ln -sfn dotvim/vimrc .vimrc
