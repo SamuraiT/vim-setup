@@ -7,9 +7,11 @@ cd ~/
 git clone git://github.com/astrails/dotvim.git
 ln -sfn dotvim .vim
 ln -sfn dotvim/vimrc .vimrc
-cd .vim
-echo -ne '\n' | make install
+cd ~/.vim
+make install
 
+if [ $? = 0] 
+then
 echo "install color schema"
 
 git clone https://github.com/tomasr/molokai
@@ -38,3 +40,7 @@ let g:molokai_original = 1
 let g:rehash256 = 1
 set background=dark
 ' > ~/.vimrc.after
+
+else
+  echo "hmmm, seems failed to intall. go to ~/.vim directory and `make install`"
+if
