@@ -9,8 +9,12 @@ this is bootstrap script for https://github.com/astrails/dotvim.
 curl -fsSL https://raw.githubusercontent.com/SamuraiT/vim-setup/master/bootstrap.sh | sh
 ```
 or
-
 ```
+curl -fsSL https://raw.githubusercontent.com/SamuraiT/vim-setup/master/install-dotvim.sh | sh
+curl -fsSL https://raw.githubusercontent.com/SamuraiT/vim-setup/master/install-color-scheme.sh
+```
+
+```sh
 cd ~
 git clone git://github.com/astrails/dotvim.git
 ln -sfn dotvim .vim
