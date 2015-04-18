@@ -6,7 +6,8 @@ Please wait.....
 git clone git://github.com/astrails/dotvim.git
 ln -sfn dotvim .vim
 ln -sfn dotvim/vimrc .vimrc
-(cd .vim; echo -ne '\n' | make install)
+cd .vim
+echo -ne '\n' | make install
 
 echo "install color schema"
 
