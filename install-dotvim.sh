@@ -1,3 +1,4 @@
+#! /bin/bash
 cd ~
 git clone git://github.com/astrails/dotvim.git
 ln -sfn dotvim .vim
