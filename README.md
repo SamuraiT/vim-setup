@@ -50,8 +50,8 @@ set background=dark
 ' > ~/.vimrc.after
 
 ```
-if you don't have ctags, 
-
+if you dont have Taglist: Exuberant ctags (http://ctags.sf.net),
+install it
 ```
 sudo apt-get update
 sudo apt-get install exuberant-ctags
